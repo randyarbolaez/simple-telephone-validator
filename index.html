@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Telephone Validator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Is Number Valid?</h1>
+      <form class="sub-wrapper" onsubmit="checkIfPhoneIsValid(event)">
+        <input type="text" id="input" />
+        <button type="submit">Check if valid!</button>
+      </form>
+      <h2 id="number-valid-text"></h2>
+      <span id="why-number-isnt-valid"></span>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
